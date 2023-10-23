@@ -592,6 +592,20 @@ img {
     overflow: hidden;
 }
 
+.portfolio-card-text {
+    position: absolute;
+    top: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    padding: 40px 32px;
+    background-color: var(--iris);
+    height: 100%;
+    width: 100%;
+    transform: translateY(100%);
+}
+
 .portfolio-card {}
 
 .portfolio-title {
