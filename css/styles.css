@@ -477,13 +477,12 @@ img {
 }
 
 .customers-link:hover,
-.customers-link:focus {
+.customers-link:focus,
+.customers-link:active {
     border-color: #404bbf;
 }
 
 .customers-icon {
-    width: 104px;
-    height: 56px;
     fill: currentColor;
 }
 
