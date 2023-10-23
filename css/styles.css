@@ -461,6 +461,7 @@ img {
 
 .customers-item {
     height: 88px;
+    width: calc((100% - 120px) / 6);
 }
 
 .customers-link {
@@ -471,7 +472,19 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #8e8f99;
 
+}
+
+.customers-link:hover,
+.customers-link:focus {
+    border-color: #404bbf;
+}
+
+.customers-icon {
+    width: 104px;
+    height: 56px;
+    fill: currentColor;
 }
 
 /*====================*/
