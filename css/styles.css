@@ -571,11 +571,10 @@ img {
 .footer-container {
     display: flex;
     align-items: baseline;
-}
-
-.footer-logo-main {
     margin-right: 120px;
 }
+
+.footer-logo-main {}
 
 .footer-logo {
     color: #4D5AE5;
