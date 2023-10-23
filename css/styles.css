@@ -634,7 +634,6 @@ img {
 .footer-link-social {
     width: 100%;
     height: 100%;
-    border: 1px solid #4D5AE5;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -645,6 +644,11 @@ img {
 .footer-item-icon {
     display: block;
     fill: #f4f4fd;
+}
+
+.footer-link-social:hover,
+.footer-link-social:focus {
+    background-color: #31d0aa;
 }
 
 /*========modal=========*/
