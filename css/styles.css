@@ -484,15 +484,14 @@ img {
 .customers-link:focus,
 .customers-link:active {
     border-color: var(--ocean);
-
 }
 
 .customers-icon {
     fill: currentColor;
 }
 
-.customers-icon:hover {
-    fill: var(--ocean);
+.customers-link:hover .customers-icon {
+    stroke: #404bbf;
 }
 
 /*====================*/
