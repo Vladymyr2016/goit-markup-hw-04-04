@@ -483,11 +483,16 @@ img {
 .customers-link:hover,
 .customers-link:focus,
 .customers-link:active {
-    border-color: #404bbf;
+    border-color: var(--ocean);
+
 }
 
 .customers-icon {
     fill: currentColor;
+}
+
+.customers-icon:hover {
+    fill: var(--ocean);
 }
 
 /*====================*/
@@ -788,8 +793,9 @@ img {
 
 .modal-btn:hover,
 .modal-btn:focus {
-    color: var(--ocean);
+    border-color: var(--ocean);
     fill: #ffffff;
+    border: none;
 }
 
 .is-hidden {
